@@ -30,17 +30,17 @@ button {
 }
 
 .logo {
-    color: #2E2F42;
+    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.667; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-accent {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -51,7 +51,8 @@ button {
     color: #2E2F42;
 }
 
-.nav-link:active {
+.nav-link:hover,
+.nav-link:focus {
     color: #404BBF;
 }
 
@@ -64,8 +65,10 @@ button {
     color: inherit;
 }
 
-.mail:active {
+.mail:hover,
+.mail:focus {
     color: #404BBF;
+    border: 1px solid currentColor;
 }
 
 .tel {
@@ -75,5 +78,48 @@ button {
     font-style: normal;
     line-height: 1.5;    /* 150% */
     letter-spacing: 0.02em;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;   /* 107.143% */
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: #2E2F42;
+    color: #FFF;
+    font-family: inherit;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;   /* 150% */
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+.advantages-title {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;   /* 120% */
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.advantages-text {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;    /* 150% */
+    letter-spacing: 0.02em;
+    color: inherit;
 }
 
